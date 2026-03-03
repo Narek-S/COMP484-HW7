@@ -1,0 +1,117 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+/* ===== COLOR PALETTE =====
+Primary:   #1B365D
+Secondary: #2E5C8A
+Accent:    #4A90E2
+Background:#F4F6F8
+White:     #FFFFFF
+Text Dark: #2D2D2D
+========================== */
+
+
+/* Global styles */
+body {
+    margin: 0; 
+    background-color: #F4F6F8;
+    color: #2D2D2D;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+/* Content Wrapper (HW7 Step 1 & 2) */
+.content-wrap {
+    max-width: 950px; /* changed from width to max-width */
+    margin: 0 auto;
+    padding: 50px; 
+    overflow: hidden; 
+}
+
+
+/* Headings */
+h1 {
+    font-family: "Charis SIL", serif;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0; /* HW7 Step 4d */
+}
+
+h2 {
+    font-family: "Charis SIL", serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 0; /* HW7 Step 3c */
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* Header */
+header {
+    background-color: #1B365D;
+    color: #FFFFFF;
+}
+
+
+/* Column Layout */
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+
+/* Profile Image  */
+.profile-img {
+    width: 220px;
+    border-radius: 50%;
+}
+
+
+/* Sections */
+section {
+    background-color: #FFFFFF;
+}
+
+
+/* Footer */
+footer {
+    background-color: #1B365D;
+    color: #FFFFFF;
+    text-align: center; 
+}
+
+
+/* Contact Links  */
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
